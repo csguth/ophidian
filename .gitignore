@@ -17,3 +17,4 @@ install_manifest.txt
 .project
 .cproject
 /build
+/docs

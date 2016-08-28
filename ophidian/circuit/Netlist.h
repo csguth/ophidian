@@ -325,14 +325,14 @@ namespace ophidian
                 /*!
                   \brief Returns the Pin of a given Output
                   \param output the Output we want the Pin
-                  \return A handler to the Pin of output
+                  \return A handler to the Pin of \p output
                 */
                 Pin pin(const Output& output) const;
                 //! Output of a Pin
                 /*!
                   \brief Returns the Output of a given Pin
                   \param pin the Pin we want the Output
-                  \return A handler to the Output of pin
+                  \return A handler to the Output of \p pin
                   \remark If pin isn't associated with any Output, returns Output()
                 */
                 Output output(const Pin& pin) const;
